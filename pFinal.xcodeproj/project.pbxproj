@@ -22,7 +22,6 @@
 		7703DD0E1E87287F00CA05F8 /* ViewControllerRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7703DD0D1E87287F00CA05F8 /* ViewControllerRegistro.swift */; };
 		7703DD121E87AC3C00CA05F8 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7703DD111E87AC3C00CA05F8 /* CollectionViewController.swift */; };
 		7703DD141E87ADF400CA05F8 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7703DD131E87ADF400CA05F8 /* MyCollectionViewCell.swift */; };
-		7703DD1A1E88922B00CA05F8 /* FRUTA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7703DD191E88922B00CA05F8 /* FRUTA.swift */; };
 		7703DD2D1E88A38B00CA05F8 /* aguacate.png in Resources */ = {isa = PBXBuildFile; fileRef = 7703DD1B1E88A38A00CA05F8 /* aguacate.png */; };
 		7703DD2E1E88A38B00CA05F8 /* calabaza.png in Resources */ = {isa = PBXBuildFile; fileRef = 7703DD1C1E88A38A00CA05F8 /* calabaza.png */; };
 		7703DD2F1E88A38B00CA05F8 /* cereza.png in Resources */ = {isa = PBXBuildFile; fileRef = 7703DD1D1E88A38A00CA05F8 /* cereza.png */; };
@@ -83,7 +82,6 @@
 		7703DD0D1E87287F00CA05F8 /* ViewControllerRegistro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistro.swift; sourceTree = "<group>"; };
 		7703DD111E87AC3C00CA05F8 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		7703DD131E87ADF400CA05F8 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
-		7703DD191E88922B00CA05F8 /* FRUTA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRUTA.swift; sourceTree = "<group>"; };
 		7703DD1B1E88A38A00CA05F8 /* aguacate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aguacate.png; sourceTree = "<group>"; };
 		7703DD1C1E88A38A00CA05F8 /* calabaza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calabaza.png; sourceTree = "<group>"; };
 		7703DD1D1E88A38A00CA05F8 /* cereza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cereza.png; sourceTree = "<group>"; };
@@ -175,7 +173,6 @@
 				7703DD2C1E88A38B00CA05F8 /* uva.png */,
 				7703DD3F1E88A86800CA05F8 /* logout.png */,
 				7703DD091E871E0200CA05F8 /* USUARIOS+CoreDataProperties.swift */,
-				7703DD191E88922B00CA05F8 /* FRUTA.swift */,
 				7703DD0A1E871E0200CA05F8 /* USUARIOS.swift */,
 				7703DCD41E8715DB00CA05F8 /* AppDelegate.swift */,
 				7703DCD61E8715DB00CA05F8 /* ViewController.swift */,
@@ -367,7 +364,6 @@
 				7703DD0B1E871E0200CA05F8 /* USUARIOS+CoreDataProperties.swift in Sources */,
 				7703DCD71E8715DB00CA05F8 /* ViewController.swift in Sources */,
 				7703DD121E87AC3C00CA05F8 /* CollectionViewController.swift in Sources */,
-				7703DD1A1E88922B00CA05F8 /* FRUTA.swift in Sources */,
 				7703DCD51E8715DB00CA05F8 /* AppDelegate.swift in Sources */,
 				7703DD0C1E871E0200CA05F8 /* USUARIOS.swift in Sources */,
 				7703DD081E87183000CA05F8 /* DBManager.swift in Sources */,
