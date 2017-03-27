@@ -42,7 +42,7 @@ class CollectionViewController : UIViewController, UICollectionViewDataSource, U
     
     func parseJson(anyObj:AnyObject) -> Array<Fruta>{
         var list:Array<Fruta> = []
-        
+        // Lenamos el Array con los datos del JSON
         if  anyObj is Array<AnyObject> {
             var b:Fruta = Fruta()
             for json in anyObj as! Array<AnyObject>{
@@ -83,7 +83,7 @@ class CollectionViewController : UIViewController, UICollectionViewDataSource, U
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell{
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! MyCollectionViewCell
         
-        // Configure the cell
+        // LLenamos datos de la celda
         cell.imgView.image = UIImage(named: self.list[indexPath.item].imagen )
 
         cell.lblTitulo.text = self.list[indexPath.item].titulo
@@ -111,6 +111,8 @@ class CollectionViewController : UIViewController, UICollectionViewDataSource, U
     }
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        // Se programa el boton de logout
+        
         let titleSelected = list[indexPath.row].titulo as String
             if titleSelected=="LOGOUT"{
                 performSegueWithIdentifier("logout", sender: self)
@@ -124,6 +126,8 @@ class CollectionViewController : UIViewController, UICollectionViewDataSource, U
 
 extension String
 {
+    // Extension para poder formatear el string como un JSON, si viene desde el Web Service no es necesario
+    
     var parseJSONString: AnyObject?
         {
             let data = self.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)
